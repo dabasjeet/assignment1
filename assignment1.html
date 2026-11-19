@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Personal Portfolio</title>
+</head>
+<body>
+
+  <!-- ===== Header & Navigation ===== -->
+  <header>
+    <h1>Your Name</h1>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero Section ===== -->
+    <section id="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hi, I'm Your Name — a web development student learning to build clean,
+        accessible websites with HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Portrait photo of Your Name" width="200" height="200">
+      <p>I'm a computer science student passionate about learning web development
+        and building creative, useful projects. This portfolio is where I share
+        what I'm working on as I learn.</p>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li><strong>Personal Portfolio Website</strong> — a one-page site to showcase my bio, skills, and contact details.</li>
+        <li><strong>Recipe Card Page</strong> — a static page laid out with semantic HTML to display a recipe with ingredients and steps.</li>
+        <li><strong>Simple Contact Form</strong> — a practice page focused on accessible form fields and labels.</li>
+      </ul>
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <caption>My current skill levels</caption>
+        <thead>
+          <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Learning</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
